@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    font-family: 'Montserrat';
+}
+p{
+    color:#8f8f8f;
+}
+#title{
+    background-color: #ff4c66;
+    color:#fff;
+   
+}
+
+.navbar1{
+    margin-left: 72%;
+}
+.navbar-brand1{
+    margin-left: 3%;
+    transition:0.5s;
+}
+.navbar-brand1:hover{
+    transform: scale(1.05);
+}
+
+.big-title{
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    
+}
+.navbar-general {
+    margin-bottom: 100px;
+}
+
+.container{
+
+   
+    padding: 3%  15% 7%;
+}
+.download-button{
+    margin-top: 100px;
+}
+.title-image{
+    width:20%;
+    transform: rotate(25deg);
+    
+    position: absolute;
+    right: 25%;
+}
+#features{
+    padding:7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.h3-title{
+    font-family: "MaMontserrat-Bold";
+}
+
+.icon{
+    color:#ff4c66;
+    padding-bottom: 15px;
+    transition: 0.5s;
+}
+.icon:hover{
+    color:red;
+    transform: scale(1.05);
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+  padding: 7% 15%;
+}
+.text-2{
+    font-family: "MaMontserrat-Bold" ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width:100px;
+   border-radius: 100%;
+   margin:20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+
+}
+.cardss{
+    display: flex;
+    justify-content: center;
+}
+.title-pricing{
+    
+    text-align: center;
+    padding: 35px;
+    
+}
+#cta{
+    background-color: #ff4c66;
+    color:#fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montsarrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.download-button2{
+    margin:15px
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+@media screen and  (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width:300px;
+        
+    }
+    #title{
+       
+        text-align: center;
+    }
+    .big-title{
+        font-size: 2.5rem;}
+    .download-button{
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
+}
